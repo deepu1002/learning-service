@@ -1,4 +1,4 @@
-package com.timepass.learningservice;
+package com.timepass;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
