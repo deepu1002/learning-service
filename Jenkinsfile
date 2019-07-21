@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
             steps {
 
-                    sh 'gradle clean'
+                    sh './gradlew clean'
 
             }
          }
@@ -13,7 +13,7 @@ pipeline {
         stage ('Testing Stage') {
             steps {
 
-                    sh 'gradle clean test'
+                    sh './gradlew clean test'
 
             }
         }
@@ -21,7 +21,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
 
-                    sh 'gradle clean build'
+                    sh './gradlew clean build'
 
             }
         }
