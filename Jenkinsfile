@@ -6,7 +6,6 @@ pipeline {
             steps {
 
                     bat './gradlew clean'
-
             }
          }
 
